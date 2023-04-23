@@ -4,7 +4,7 @@ const chalk = require('chalk')
 
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
 
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -15,23 +15,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['201098906252'] //ur owner number
-global.ownername = "ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ❤️" //ur owner name
-global.ytname = "YT: ELGAZAR" //ur yt chanel name
-global.socialm = "GitHub: ELGAZAR" //ur github or insta name
+global.owner = ['201227179105'] //ur owner number
+global.ownername = "YoUsSef Al SoLtAn" //ur owner name
+global.ytname = "YT: YOUSSEF-ALSOLTN" //ur yt chanel name
+global.socialm = "GitHub: youssefalsoltan" //ur github or insta name
 global.location = "Africa, Egypt, Cairo" //ur location
 
 //bot bomdy 
-global.ownernomer = "201098906252" //ur number
-global.premium = ['201098906252'] //ur premium number
-global.botname = '❤️ᗴᒪᘜᗩᘔᗩᖇ ᗷOT❤️' //ur bot name
-global.linkz = "https://youtube.com/@ABDALLAH_MOHAMED" //your theme url which will be displayed on whatsapp
+global.ownernomer = "201227179105" //ur number
+global.premium = ['201227179105'] //ur premium number
+global.botname = '❤️AL SOLTAN ᗷOT❤️' //ur bot name
+global.linkz = "https://youtube.com/@YOUSSEF-ALSOLTN" //your theme url which will be displayed on whatsapp
 global.websitex = "https://telegra.ph/file/ec763cc3e7c88d0e67682.jpg" //ur website to be displayed
-global.botscript = 'https://youtube.com/@ABDALLAH_MOHAMED' //script link
+global.botscript = 'https://youtube.com/@YOUSSEF-ALSOLTN' //script link
 global.themeemoji = "♥" //ur theme emoji
-global.packname = "⍣الجزار الوزير يروحي⍣" //ur sticker watermark packname
-global.author = "⍣01098906252⍣" //ur sticker watermark author
-global.wm = "❤️ᗴᒪᘜᗩᘔᗩᖇ ᗷOT❤️." //ur watermark
+global.packname = "⍣By YoUsSeF Al SoLtAn ,⍣" //ur sticker watermark packname
+global.author = "⍣201227179105⍣" //ur sticker watermark author
+global.wm = "❤️AL SOLTAN ᗷOT❤️." //ur watermark
 
 // Other
 global.sessionName = 'session'
