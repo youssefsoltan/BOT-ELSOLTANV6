@@ -2005,7 +2005,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
 *┃🎲الوصف :* ${anulay.description}
 *┃🌿 الرابط :* ${anulay.url}
 
-┃اسم البوت : 📶 𝗕𝗢𝗧 𝗘𝗟𝗚𝗔𝗭𝗔𝗥 📶 
+┃اسم البوت : 📶bot al soltan📶 
 
 ┗━━━━━━━━━❊`,
                     footer: botname,
@@ -3028,7 +3028,7 @@ if (!q.includes('tiktok')) return m.reply(`الرابط خطأ!`)
 m.reply(mess.wait)
 require('./lib/tiktok').Tiktok(q).then( data => {
     var button = [{ buttonId: `tiktokaudio ${q}`, buttonText: { displayText: `صوتي‡` }, type: 1 }, { buttonId: `menu`, buttonText: { displayText: `الاوامر✨` }, type: 1 }]
-ElgazarBot.sendMessage(m.chat, { caption: `حقوق: ᴇʟɢᴀᴢᴀʀ_ᴀʟᴡᴀᴢᴇʀ`, video: { url: data.watermark }, buttons: button, footer: botname, mentions: [sender] })
+ElgazarBot.sendMessage(m.chat, { caption: `حقوق:youssef al soltanᴀʟᴡᴀᴢᴇʀ`, video: { url: data.watermark }, buttons: button, footer: botname, mentions: [sender] })
 })
 }
 break
@@ -7183,7 +7183,7 @@ youssefalsoltan_
 https://youtube.com/@YOUSSEF-ALSOLTN
 واشترك وفعل الجرس وانتظر شروحات للبرمجه..🌍🔥`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -7193,7 +7193,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -7221,7 +7221,7 @@ https://youtube.com/@YOUSSEF-ALSOLTN
 لينك شات البوت
 https://api.whatsapp.com/send?phone=+201227179105`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -7231,7 +7231,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -8431,7 +8431,7 @@ teks = `• مرحبا ياروحي ⤌⤈      
 ( .انطق )
 ♚ البوت ينطق المكتوب`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -8441,7 +8441,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -8489,7 +8489,7 @@ teks = `• مرحبا ياروحي ⤌⤈      
 ( .جلب )
 ♚ يجلب لك ملفات سكريبت جيثب `
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -8499,7 +8499,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -8574,7 +8574,7 @@ teks = `• مرحبا ياروحي ⤌⤈      
 ( .الجمال )
 ♚ يجلب لك نسبه جمالك`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -8584,7 +8584,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -8641,7 +8641,7 @@ teks = `• مرحبا ياروحي ⤌⤈      
 ( .تخمين )
 ♚ تخمين ارقام مشابهه لرقمك`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -8651,7 +8651,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -8702,7 +8702,7 @@ teks = `• مرحبا ياروحي ⤌⤈      
 ( .اكتب )
 ♚ يكتب لك علي الملصق`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -8712,7 +8712,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -8754,7 +8754,7 @@ teks = `• مرحبا ياروحي ⤌⤈      
 ( .روبوت )
 ♚ عمل الاغنيه بصوت روبوت`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -8764,7 +8764,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -8784,6 +8784,9 @@ teks = `• مرحبا ياروحي ⤌⤈      
 𓍹——————————𓍻
 ( .اكس )
 ♚ لعبه اكس او
+ ꔹ━━━━━ꔹ
+ ( .pvp @منشن شخص )
+♚ لعبه حجر ورقه مقص
  ꔹ━━━━━ꔹ
  ( .مغادره )
 ♚ مغادره الجيم في اكس او
@@ -8842,7 +8845,7 @@ teks = `• مرحبا ياروحي ⤌⤈      
 ( .مانجا )
 ♚ صوره عشوائيه لـ مانجا`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -8852,7 +8855,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -8899,7 +8902,7 @@ teks = `• مرحبا ياروحي ⤌⤈      
 ♚ البوت يرسلك حروف تكملها
 ꔹ━━━━━ꔹ`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -8909,7 +8912,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -9148,6 +9151,9 @@ _*https://chat.whatsapp.com/Hw8trsc84AxKtUPFHKH9Cw*_
 ( .اكس )
 ♚ لعبه اكس او
  ꔹ━━━━━ꔹ
+ ( .pvp @منشن شخص )
+♚ لعبه حجر ورقه مقص
+ ꔹ━━━━━ꔹ
  ( .مغادره )
 ♚ مغادره الجيم في اكس او
  ꔹ━━━━━ꔹ
@@ -9202,7 +9208,7 @@ _*https://chat.whatsapp.com/Hw8trsc84AxKtUPFHKH9Cw*_
 ( .مانجا )
 ♚ صوره عشوائيه لـ مانجا`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -9212,7 +9218,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
@@ -9255,7 +9261,7 @@ _*https://chat.whatsapp.com/Hw8trsc84AxKtUPFHKH9Cw*_
 .المطور ☞ لعرض مطور البوت
 .السورس ☞ لعرض المبرمج`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
@@ -9265,7 +9271,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"BOT-ALSOLTAN",
+title:"bot•al soltan",
 body: "سورس السلطان", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
