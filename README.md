@@ -1,8 +1,8 @@
 
 
-<h1 align="center">〝ELSOLTAN_BOTV6✨〞<br></h1>
+<h1 align="center">〝ALSOLTAN_BOTV6✨〞<br></h1>
 <p align="center">
-<img src="https://telegra.ph/file/ffdb2c3cfba2016eb4e17.jpg" alt="animated" width="500" height="300" />
+<img src="https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg" alt="animated" width="500" height="300" />
 </p>
 
 <p align="center">
