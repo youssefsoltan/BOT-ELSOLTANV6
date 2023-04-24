@@ -24,14 +24,14 @@ global.location = "Africa, Egypt, Cairo" //ur location
 //bot bomdy 
 global.ownernomer = "201227179105" //ur number
 global.premium = ['201227179105'] //ur premium number
-global.botname = '❤️AL SOLTAN ᗷOT❤️' //ur bot name
+global.botname = '⁦⚜️⁩AL SOLTAN ᗷOT⁦⚜️⁩' //ur bot name
 global.linkz = "https://youtube.com/@YOUSSEF-ALSOLTN" //your theme url which will be displayed on whatsapp
-global.websitex = "https://telegra.ph/file/ffdb2c3cfba2016eb4e17.jpg" //ur website to be displayed
+global.websitex = "https://telegra.ph/file/3b300406f428844ad9d17.jpg" //ur website to be displayed
 global.botscript = 'https://youtube.com/@YOUSSEF-ALSOLTN' //script link
-global.themeemoji = "♥" //ur theme emoji
+global.themeemoji = "⁦❇️⁩" //ur theme emoji
 global.packname = "⍣By YoUsSeF Al SoLtAn ,⍣" //ur sticker watermark packname
 global.author = "⍣201227179105⍣" //ur sticker watermark author
-global.wm = "❤️AL SOLTAN ᗷOT❤️." //ur watermark
+global.wm = "⁦⚜️⁩AL SOLTAN ᗷOT⁦⚜️⁩." //ur watermark
 
 // Other
 global.sessionName = 'session'
@@ -48,7 +48,7 @@ global.mess = {
     group: '『 الميزه دي للجروبات بس! 』',
     private: '『 الميزه دي في الخاص بس! 』',
     bot: '『 الميزه دي للبوت بس! 』',
-    wait: '『 استني شويه... 』',
+    wait: '『 جاري تنفيذ طلبك... 』',
     linkm: '『 فين الرابط? 』',
     endLimit: 'انتهت صلاحية الحد اليومي الخاص بك ، وسيتم إعادة تعيين الحد كل 12 ساعة',
     nsfw: 'لم يتم تنشيط ميزة nsfw ، يرجى الاتصال بالمسؤول للتفعيل',
