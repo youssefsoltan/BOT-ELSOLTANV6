@@ -692,7 +692,7 @@ ElgazarBot.sendMessage(from, {text:`\`\`\`「 منع الروابط 」\`\`\`\n\
  
  
  
-تمت البرمجه بواسطه: ELGAZAR ALWAZER`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
+تمت البرمجه بواسطه: YOUSSEF AL SOLTAN`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
 
@@ -6946,7 +6946,7 @@ case 'الغباء': {
             }
             break
 case 'بوت': {
-            	let lowq = `*انا متصل يعم متصدعناش🤺:*\n*${runtime(process.uptime())}*`
+            	let lowq = `*نعم؟ انا متصل الان😃:*\n*${runtime(process.uptime())}*`
                 let buttons = [{ buttonId: 'menu', buttonText: { displayText: 'الاوامر' }, type: 1 }]
                 await ElgazarBot.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
             	}
@@ -7174,11 +7174,13 @@ const reply = `
     break
 case 'السورس': case 'script': {
 teks = `⋆ تم تطوير وبرمجه هذا السورس •
-⋆ بواسطه عبدالله محمد •
-⋆ يمكنك التواصل مع المبرمج عبر التيلجرام ⤌⤈
- t.me/A_M_030
+⋆ بواسطه يوسف السلطان •
+⋆ يمكنك التواصل مع المبرمج عبر الانستجرام 
+youssefalsoltan_
+
 تبعني عبر اليوتيوب ⤌⤈
-https://youtube.com/@ABDALLAH_MOHAMED
+
+https://youtube.com/@YOUSSEF-ALSOLTN
 واشترك وفعل الجرس وانتظر شروحات للبرمجه..🌍🔥`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
@@ -7216,7 +7218,7 @@ teks = `• مرحبا ياروحي ⤌⤈
 قناة برمجه السلطان للشروحات
 https://youtube.com/@YOUSSEF-ALSOLTN
 
-لينك شاتي 
+لينك شات البوت
 https://api.whatsapp.com/send?phone=+201227179105`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'المطور👤'}, type: 1}
@@ -9233,6 +9235,11 @@ teks = `•╗ مرحبا ياعزيزي ⤌⤈
 •╣ اوامر البوت وطريقه الاستخدام
 •╣ مميزات البوت كثيره جدا 
 •╝ ويعمل بجودة فائقه وعاليه
+
+جروب البوت الرسمي
+
+_*https://chat.whatsapp.com/Hw8trsc84AxKtUPFHKH9Cw*_
+
 𓍹————————————𓍻
 𓆩قائمة اوامر سورس السلطان𓆪 
 𓍹————————————𓍻
