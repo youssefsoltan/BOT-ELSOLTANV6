@@ -6946,7 +6946,7 @@ case 'الغباء': {
             }
             break
 case 'بوت': {
-            	let lowq = `*نعم؟ انا متصل الان😃:*\n*${runtime(process.uptime())}*`
+            	let lowq = `*نعم؟ انا متصل الان😃 من فضلك اكتب ااوامر:*\n*${runtime(process.uptime())}*`
                 let buttons = [{ buttonId: 'menu', buttonText: { displayText: 'الاوامر' }, type: 1 }]
                 await ElgazarBot.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
             	}
@@ -7172,7 +7172,7 @@ const reply = `
     return m.reply (`*${q}* isn't a valid text`)
     }
     break
-case 'السورس': case 'script': {
+case 'السورس': case '.': {
 teks = `⋆ تم تطوير وبرمجه هذا السورس •
 ⋆ بواسطه يوسف السلطان •
 ⋆ يمكنك التواصل مع المبرمج عبر الانستجرام 
