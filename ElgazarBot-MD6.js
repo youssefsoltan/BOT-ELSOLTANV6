@@ -8723,36 +8723,183 @@ sourceUrl: "https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg"
 ElgazarBot.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
             break
-
-case 'م6': case 'اوامر تغير الصوت': {
+            
+            case 'م5': case 'اوامر التحويل': {
 teks = `• مرحبا ياروحي ⤌⤈       
 𓆩 *${pushname}* 𓆪
 𓍹——————————𓍻
-𓆩اليك قائمة باوامر تغير الصوت𓆪
+𓆩اليك قائمة باوامر التحويل𓆪
 𓍹——————————𓍻
-( .دبه )
-♚ عمل دبه لصوت الاغنيه
+( .مـلـصـق )
+♚ انشاء ملصقات عادية ومتحركة 
+ ꔹ━━━━━ꔹ
+( .سرقه )
+♚ انشاء ملصق بحقوقك 
+ ꔹ━━━━━ꔹ
+( .دمج )
+♚ دمج اثنين من الاموجي 
 ꔹ━━━━━ꔹ
-( .ضوضاء )
-♚ عمل ضوضاء لصوت الاغنيه
+( .لصورة )
+♚ تحويل ملصق عادي لصورة 
  ꔹ━━━━━ꔹ
-( .بطئ )
-♚ عمل تبطئ لصوت الاغنيه
+( .لفيديو )
+♚ تحويل ملصق متحرك لفيديو 
  ꔹ━━━━━ꔹ
-( .بطئ2 )
-♚ عمل تبطئ لصوت الاغنيه
+( .لصوتي )
+♚ تحويل فيديو لصوتية 
+ ꔹ━━━━━ꔹ
+( .لمتحرك )
+♚ تحويل ملصق لمتحرك
+ ꔹ━━━━━ꔹ
+ ( .اظبطها )
+♚ لحذف خلفيه الصور
 ꔹ━━━━━ꔹ
-( .سريع )
-♚ عمل تسريع لصوت الاغنيه
+ ( .ايموجي )
+♚ تحويل ايموجي لصوره
  ꔹ━━━━━ꔹ
-( .طفل )
-♚ عمل الاغنيه بصوت طفل
+ ( .تقصير )
+♚ تقصير الروابط وجعلها قصيره
  ꔹ━━━━━ꔹ
-( .عكس )
-♚ عمل عكس لاغنيه 
-ꔹ━━━━━ꔹ
-( .روبوت )
-♚ عمل الاغنيه بصوت روبوت`
+( .اكتب )
+♚ يكتب لك علي الملصق`
+let buttons = [
+{buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
+]
+let buttonMessage = {
+image: {url: `https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg`},
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"bot•al soltan",
+body: "سورس السلطان", 
+thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
+mediaType:1,
+mediaUrl: 'https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg',
+sourceUrl: "https://telegra.ph/file/38b3870679e4fd0d3e32e.jpg"
+}}
+}
+ElgazarBot.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
+            break
+
+case 'م9': case 'اوامر اللوجو': {
+teks = `• مرحبا ياروحي ⤌⤈       
+𓆩 *${pushname}* 𓆪
+𓍹——————————𓍻
+𓆩اليك قائمة باوامر عمل اللوجو
+
+ملاحظه اكتب الامر ومسافه وحط اسمك انجلش بس مثال .candy youssef
+𓍹——————————𓍻
+╠
+╠.candy
+╠.8bit
+╠.horror
+╠.hoorror
+╠.retro
+╠.blackpinkneon
+╠.deepsea
+╠.scifi
+╠.fiction
+╠.berry
+╠.fruitjuice
+╠.biscuit
+╠.wood
+╠.chocolate
+╠.matrix
+╠.blood
+╠.halloween
+╠.wicker
+╠.darkgold
+╠.firework
+╠.skeleton
+╠.sand
+╠.glue
+╠.leaves
+╠.magma
+╠.lava
+╠.rockart
+╠.bloodglas
+╠.underwater
+╠.textmaker
+╠.honey
+╠.ice
+╠.watercolor
+╠.multicolor
+╠.snow
+╠.harrypot
+╠.harrypotter
+╠.brokenglass
+╠.waterpipe
+╠.spooky
+╠.circuit
+╠.metallic
+╠.demon
+╠.sparklechristmas
+╠.christmas
+╠.3dchristmas
+╠.3dbox
+╠.waterdrop
+╠.lion2
+╠.papercut
+╠.transformer
+╠.neondevil
+╠.3davengers
+╠.3dstone
+╠.3dstone2
+╠.summertime
+╠.thunder
+╠.window
+╠.graffiti
+╠.graffitibike
+╠.pornhub
+╠.glitch
+╠.blackpinkart
+╠.glitch2
+╠.glitch3
+╠.3dspace
+╠.lion
+╠.3dneon
+╠.greenneon
+╠.bokeh
+╠.holographic
+╠.bear
+╠.wolf
+╠.joker
+╠.dropwater
+╠.dropwater2
+╠.thewall
+╠.neonlight
+╠.natural
+╠.carbon
+╠.pencil
+╠.blackpink2
+╠.neon
+╠.neonlight2
+╠.toxic
+╠.strawberry
+╠.discovery
+╠.1917
+╠ .sci_fi
+╠ .ancient
+╠ .fabric
+╠ .hoorror
+╠ .whitebear
+╠ .juice
+╠ .batman
+╠ .multicolor
+╠ .wonderful
+╠ .sketch
+╠ .marvel
+╠ .foggy
+╠ .writing
+╠ .halloweenfire
+╠ .halloween
+╠ .watercolor
+╠ .classic
+╚═════════════✪`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1}
 ]
@@ -9145,6 +9292,120 @@ _*https://chat.whatsapp.com/BwIjiV686QzGhebk2ryuOU*_
 ꔹ━━━━━ꔹ
 ( .روبوت )
 ♚ عمل الاغنيه بصوت روبوت
+ꔹ━━━━━ꔹ
+( .زخرفه )
+♚ عمل زخرفه لـ اسمك بالانجليزيه
+𓍹——————————𓍻
+𓆩اليك قائمة باوامر عمل اللوجو
+𓍹——————————𓍻
+ملاحظه اكتب الامر ومسافه وحط اسمك انجلش بس مثال .candy youssef
+𓍹——————————𓍻
+╠
+╠.candy
+╠.8bit
+╠.horror
+╠.hoorror
+╠.retro
+╠.blackpinkneon
+╠.deepsea
+╠.scifi
+╠.fiction
+╠.berry
+╠.fruitjuice
+╠.biscuit
+╠.wood
+╠.chocolate
+╠.matrix
+╠.blood
+╠.halloween
+╠.wicker
+╠.darkgold
+╠.firework
+╠.skeleton
+╠.sand
+╠.glue
+╠.leaves
+╠.magma
+╠.lava
+╠.rockart
+╠.bloodglas
+╠.underwater
+╠.textmaker
+╠.honey
+╠.ice
+╠.watercolor
+╠.multicolor
+╠.snow
+╠.harrypot
+╠.harrypotter
+╠.brokenglass
+╠.waterpipe
+╠.spooky
+╠.circuit
+╠.metallic
+╠.demon
+╠.sparklechristmas
+╠.christmas
+╠.3dchristmas
+╠.3dbox
+╠.waterdrop
+╠.lion2
+╠.papercut
+╠.transformer
+╠.neondevil
+╠.3davengers
+╠.3dstone
+╠.3dstone2
+╠.summertime
+╠.thunder
+╠.window
+╠.graffiti
+╠.graffitibike
+╠.pornhub
+╠.glitch
+╠.blackpinkart
+╠.glitch2
+╠.glitch3
+╠.3dspace
+╠.lion
+╠.3dneon
+╠.greenneon
+╠.bokeh
+╠.holographic
+╠.bear
+╠.wolf
+╠.joker
+╠.dropwater
+╠.dropwater2
+╠.thewall
+╠.neonlight
+╠.natural
+╠.carbon
+╠.pencil
+╠.blackpink2
+╠.neon
+╠.neonlight2
+╠.toxic
+╠.strawberry
+╠.discovery
+╠.1917
+╠ .sci_fi
+╠ .ancient
+╠ .fabric
+╠ .hoorror
+╠ .whitebear
+╠ .juice
+╠ .batman
+╠ .multicolor
+╠ .wonderful
+╠ .sketch
+╠ .marvel
+╠ .foggy
+╠ .writing
+╠ .halloweenfire
+╠ .halloween
+╠ .watercolor
+╠ .classic
 𓍹——————————𓍻
 𓆩اليك قائمة باوامر التسليه𓆪
 𓍹——————————𓍻
@@ -9257,6 +9518,7 @@ _*https://chat.whatsapp.com/BwIjiV686QzGhebk2ryuOU*_
 ( .م6 ) ☞ اوامر تغيير الصوت
 ( .م7 ) ☞ اوامر التسليه
 ( .م8 ) ☞ لعرض جميع الاومر
+( .م9 ) ☞ اوامر عمل لوجو
 .المميزات ☞ لعرض مميزات البوت
 .المطور ☞ لعرض مطور البوت
 .السورس ☞ لعرض المبرمج`
