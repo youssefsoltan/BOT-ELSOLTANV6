@@ -3773,7 +3773,7 @@ case 'report': case 'bug': {
             await ElgazarBot.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments})
             }
             break
-            case 'اوامر': case 'الاوامر'case 'بوت': case 'السورس':
+            case 'sound1':
 case 'sound2':
 case 'sound3':
 case 'sound4':
