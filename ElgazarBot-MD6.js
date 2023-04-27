@@ -1998,9 +1998,9 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
 *┃🎬العنوان :* ${anulay.title}
 ايدي : ${anulay.videoId}
 *┃🔖المده :* ${anulay.timestamp}
-*┃🎞️المشاهدات : ${anulay.views}
-*┃🔖وقت النشر :*  ${anulay.ago}
-*┃🍁المؤلف :*  ${anulay.author.name}
+*┃🎞️المشاهدات :* ${anulay.views}
+*┃🔖وقت النشر :* ${anulay.ago}
+*┃🍁المؤلف :* ${anulay.author.name}
 *┃🍁القناه :* ${anulay.author.url}
 *┃🎲الوصف :* ${anulay.description}
 *┃🌿 الرابط :* ${anulay.url}
@@ -5546,7 +5546,7 @@ let media = await quoted.download()
 let encmedia = await ElgazarBot.sendVideoAsSticker(m.chat, media, m, { packname: pcknm, author: atnm })
 await fs.unlinkSync(encmedia)
 } else {
-m.reply(`ارسل صوره او فيديو واكتب ${prefix + command}\nمدة الفيديو 1-9 ثواني`)
+m.reply(`ارسل صوره او ( واكتب ${prefix + command}\nمدة الفيديو 1-9 ثواني`)
 }
 }
 break
