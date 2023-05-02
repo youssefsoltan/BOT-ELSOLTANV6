@@ -946,7 +946,7 @@ let docs = pickRandom(documents)
 
 //swtich case
         switch(command) {
-	case 'afk': {
+	case 'اختفاء': {
                 let user = global.db.data.users[m.sender]
                 user.afkTime = + new Date
                 user.afkReason = text
@@ -2002,7 +2002,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
 *┃🔖وقت النشر :* ${anulay.ago}
 *┃🍁المؤلف :* ${anulay.author.name}
 *┃🍁القناه :* ${anulay.author.url}
-*┃🎲الوصف :* ${anulay.description}
+*┃🎲الوصف :* $>{anulay.description}
 *┃🌿 الرابط :* ${anulay.url}
 
 ┃اسم البوت : 📶bot al soltan📶 
