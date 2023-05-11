@@ -15,22 +15,22 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['201227179105'] //ur owner number
+global.owner = ['201277272498'] //ur owner number
 global.ownername = "YoUsSef Al SoLtAn" //ur owner name
 global.ytname = "YT: YOUSSEF-ALSOLTN" //ur yt chanel name
-global.socialm = "insta: youssefalsoltan_" //ur github or insta name
+global.socialm = "Wahts: 201277272498" //ur github or insta name
 global.location = "Africa, Egypt, Cairo" //ur location
 
 //bot bomdy 
-global.ownernomer = "201227179105" //ur number
-global.premium = ['201227179105'] //ur premium number
+global.ownernomer = "201277272498" //ur number
+global.premium = ['201277272498'] //ur premium number
 global.botname = 'SAHDOW•BOT🥷🏻⁩' //ur bot name
 global.linkz = "https://youtube.com/@YOUSSEF-ALSOLTN" //your theme url which will be displayed on whatsapp
 global.websitex = "https://telegra.ph/file/3b300406f428844ad9d17.jpg" //ur website to be displayed
 global.botscript = 'https://youtube.com/@YOUSSEF-ALSOLTN' //script link
 global.themeemoji = "⁦❇️⁩" //ur theme emoji
 global.packname = "⍣By YoUsSeF Al SoLtAn ,⍣" //ur sticker watermark packname
-global.author = "⍣201227179105⍣" //ur sticker watermark author
+global.author = "⍣201277272498⍣" //ur sticker watermark author
 global.wm = "⁦⁩SAHDOW•BOT🥷🏻." //ur watermark
 
 // Other
