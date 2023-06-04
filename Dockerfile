@@ -1,14 +1,19 @@
-FROM fedora:37
-
-RUN sudo dnf -y update &&\
-    sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm &&\
-    sudo dnf install -y git ffmpeg ImageMagick nodejs libwebp yarnpkg &&\
-    sudo dnf clean all -y
-
-WORKDIR /nezuko
-
-COPY . /nezuko
-
+FROM node:latest
+ENV TZ=Asia/Kolkata
+WORKDIR /root/inrl/
+COPY package*.json ./
+RUN npm install
+RUN apt -y update && apt -y upgrade && apt -y install ffmpeg git imagemagick python graphicsmagick sudo npm yarn curl && curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && sudo apt install -y nodejs && curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && apt -y update && apt -y install yarn && apt autoremove -y && rm -rf /var/lib/apt/lists/*
+COPY . .
 RUN yarn
-
 CMD ["yarn", "start"]
+
+
+
+
+
+
+
+
+
+
