@@ -31,7 +31,7 @@ global.botscript = 'https://youtube.com/@YOUSSEF-ALSOLTN' //script link
 global.themeemoji = "⁦❇️⁩" //ur theme emoji
 global.packname = "⍣By YoUsSeF Al SoLtAn ,⍣" //ur sticker watermark packname
 global.author = "⍣201277272498⍣" //ur sticker watermark author
-global.wm = "⁦⁩SAHDOW•BOT🥷🏻." //ur watermark
+global.wm = "⁦⁩AL SOLTAN•BOT🥷🏻." //ur watermark
 
 // Other
 global.sessionName = 'session'
